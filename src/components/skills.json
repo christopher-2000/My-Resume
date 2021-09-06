@@ -1,0 +1,44 @@
+[
+    {
+        "skill":"Data Structures and Algorithms",
+        "Techs":"C, C++, Python",
+        "percent":"80",
+        "level":"Intermediate"
+    },
+    {
+        "skill":"Front-End Web Development",
+        "Techs":"HTML, CSS, Js, BootStrap, React Js",
+        "percent":"80",
+        "level":"Intermediate"
+    },
+    {
+        "skill":"Android App Development",
+        "Techs":"Flutter, Firebase",
+        "percent":"80",
+        "level":"Intermediate"
+    },
+    {
+        "skill":"Deep Learning",
+        "Techs":"Keras, TensorFlow, OpenCV",
+        "percent":"60",
+        "level":"Intermediate"
+    },
+    {
+        "skill":"Backend Web Development",
+        "Techs":"Node Js, Django, Flask",
+        "percent":"30",
+        "level":"Beginner"
+    },
+    {
+        "skill":"Databases",
+        "Techs":"SQl, Firebase, AWS S3",
+        "percent":"50",
+        "level":"Intermediate"
+    }
+
+
+
+
+    
+
+]
