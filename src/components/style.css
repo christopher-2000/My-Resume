@@ -122,6 +122,7 @@ img:hover{
     
 }
 
+
 .entry{
     
     border: 0px solid white;
@@ -214,13 +215,32 @@ img:hover{
     background-color: white;
     border: 0px solid white ;
     border-radius: 15px;
-    
-    padding-left: 5%;
-    padding-right: 5%;
+    justify-content: space-around;
+    padding-left: auto;
+    padding-right: auto;
     margin-left: 5%;
-    width: fit-content;
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-
+.side{
+    
+    height: 100%;
+    width: 20%;
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.social-link{
+    color: #191B1B;
+    padding: 5%;
+}
+.centre{
+    text-align: center;
+}
 .pro-pic{
     
     align-items: center;
@@ -289,7 +309,9 @@ img:hover{
 }
 
 @media screen and (max-width:700px){
-    
+    .side{
+        width: 100%;
+    }
     .head-back{
         height: 40em;
     }
