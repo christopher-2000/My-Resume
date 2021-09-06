@@ -4,7 +4,7 @@ import './style.css';
 
 function Education(){
     return(
-        <section className="container light">
+        <section className="container light grad-blue">
             <h1 className="section-title">Education</h1>
             {
                 Data.map(entry => {

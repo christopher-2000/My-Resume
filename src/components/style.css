@@ -50,6 +50,11 @@ img:hover{
     text-align: center;
     
 }
+.main-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
 
 .card{
     
@@ -135,6 +140,11 @@ img:hover{
   border:0px solid #B2ADA2;
   border-radius: 12px;
 }
+.dark-entry{
+    
+    color: rgb(197, 194, 194);
+  transition: background-color 2s ease;
+}
 .light-entry:hover{
     background-color: rgb(241, 241, 241);
     color: black;
@@ -146,7 +156,6 @@ img:hover{
     background-color: rgb(43, 41, 41);
     color: rgb(197, 194, 194);
   transition: background-color 2s ease;
-
 }
 
 
@@ -198,24 +207,35 @@ img:hover{
     width: 80%;
     margin: 1%;
     padding: 1%;
+    transition: background-color 1s ease;
+    border-radius: 10px;
+}
+.social{
+    background-color: white;
+    border: 0px solid white ;
+    border-radius: 15px;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    width: fit-content;
 }
 
 .pro-pic{
-    width:10em;
-    height: 10em;
+    
     align-items: center;
     padding-top:auto;
     padding-bottom: auto;
     border: 0px solid white;
     background-color:black;
-    border-radius: 50%;
     overflow: hidden;
     vertical-align: middle;
     margin: 1%;
     margin-left: 5%;
     margin-right: 5%;
+    width: 15em;
+    height: 10em;
     
-    margin-bottom: -5%;
 }
 .pro-pic img{
     display: block;
@@ -223,9 +243,11 @@ img:hover{
     width:90%;
     
 }
-
+.writing{
+    padding-right: 5%;
+}
 .about{
-    width: 70%;
+    width: 90%;
     border: 0px solid white;
     background-color: white;
     border-radius: 15px;
@@ -233,6 +255,8 @@ img:hover{
     height: fit-content;
     text-align: justify;
     margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about .section-title{
     margin-top: 0;
@@ -252,11 +276,12 @@ img:hover{
 }
 
 .head-back{
-    height: 20em;
+    height: 22em;
     overflow: hidden;
 }
 .stuff-head{
     text-align: center;
+    height: 5em;
 }
 .stuff-head p{
     font-family: 'Roboto Mono',sans-serif;
@@ -266,7 +291,7 @@ img:hover{
 @media screen and (max-width:700px){
     
     .head-back{
-        height: 35em;
+        height: 40em;
     }
     .inline{
         display:block;

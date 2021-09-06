@@ -4,13 +4,13 @@ import './style.css';
 
 function Experience(){
     return(
-        <section className="container">
+        <section className="container dark">
             <h1 className="section-title">Internships</h1>
             {
                 Data.map(entry => {
                     return(
                         
-                            <div className="entry inline light-entry">
+                            <div className="entry inline dark-entry">
                             <div className="logo">
                                 <img src={entry.logo} alt="" height="95%" width="97%"/>
                             </div>
