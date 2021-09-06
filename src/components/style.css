@@ -10,10 +10,9 @@ h2,h3,h4{
     margin-block-end: 0em;
 }
 .container{
-    padding-top: auto;
+    
     padding-left:20%;
     padding-right:10%;
-    padding-bottom:2%;
     overflow: hidden;
 
 }
