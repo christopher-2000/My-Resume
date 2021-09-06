@@ -9,7 +9,6 @@ import Head from './components/Head.jsx';
 function App() {
   return(
     <div>
-      hello h r u i am fine thank you
       <Head />
       <Skills />
       <Education />
