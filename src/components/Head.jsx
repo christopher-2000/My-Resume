@@ -42,7 +42,7 @@ function Head(){
                     </div>    
                     <div className="side">
                     <div className="social-link"><a href="https://www.github.com/chistopher-2000" className="git-link">{git}</a></div>
-                    <div className="social-link"><a href="./" className="git-link">{li}</a></div>
+                    <div className="social-link"><a href="https://www.linkedin.com/in/christopher2000" className="git-link">{li}</a></div>
                     <div className="social-link"><a href="./" className="git-link">{insta}</a></div>
                     </div>
                 </div>

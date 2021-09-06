@@ -70,6 +70,7 @@ function Project(){
                 })
               }
             </Slider>
+            <br /><br />
         </section>
     )
 }
