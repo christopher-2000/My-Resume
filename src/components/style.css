@@ -375,4 +375,31 @@ img:hover{
     .inline-second{
         display: block;
     }
+    .skill-card{
+        padding: 0%;
+    }
+    .skill{
+        gap: 0px;
+    }
 }
+@media screen and (max-width:500px){
+    .inline-second{
+        display: block;
+    }
+    .skill-card{
+        padding: 0%;
+    }
+    .skill-card h5{
+        margin-bottom: 0%;
+    }
+    .skills{
+        gap: 0px;
+    }
+    .head-back{
+        height: 42em;
+    }
+    .entry{
+        margin: -20px;
+    }
+}
+

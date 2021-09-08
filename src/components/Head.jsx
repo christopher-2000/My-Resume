@@ -36,14 +36,14 @@ function Head(){
                 <div className="about inline centre">
                     <div className="pro-pic"><img src={Data[0].photo} alt="" /></div>
                     <div className="writing">
-                        <h1 className="main-title">M G Christopher</h1>
-                        <h1>4th Year Btech CSE at IIIT Kottayam</h1>
+                        <h1 className="main-title">{Data[0].name}</h1>
+                        <h1>{Data[0]['one-line']}</h1>
                         {Data[0].about}
                     </div>    
                     <div className="side">
-                    <div className="social-link"><a href="https://www.github.com/chistopher-2000" className="git-link">{git}</a></div>
-                    <div className="social-link"><a href="https://www.linkedin.com/in/christopher2000" className="git-link">{li}</a></div>
-                    <div className="social-link"><a href="./" className="git-link">{insta}</a></div>
+                    <div className="social-link"><a href={Data[0].github} className="git-link">{git}</a></div>
+                    <div className="social-link"><a href={Data[0].li} className="git-link">{li}</a></div>
+                    <div className="social-link"><a href={Data[0].insta} className="git-link">{insta}</a></div>
                     </div>
                 </div>
                 
