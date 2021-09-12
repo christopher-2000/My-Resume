@@ -147,12 +147,13 @@ img:hover{
   transition: background-color 2s ease;
 }
 .light-entry:hover{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(221, 221, 221);
     color: black;
   transition: background-color 1s ease;
   border:0px solid #B2ADA2;
   border-radius: 12px;
 }
+
 .dark-entry:hover{
     background-color: rgb(43, 41, 41);
     color: rgb(197, 194, 194);

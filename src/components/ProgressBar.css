@@ -1,12 +1,12 @@
 .progress-div {
-    background-color: rgb(207, 207, 207);
+    background-color: #323738;
     border-radius: .5rem;
     height: 18px;
     width: 50%;
 }
 
 .progress {
-  color: gray;
+  color: #323738;
   font-size: small;
   text-align: center;
   padding-top: auto;
