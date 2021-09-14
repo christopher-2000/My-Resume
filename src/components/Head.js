@@ -6,7 +6,7 @@ export var Data = [
         "about":"Passionate AI Enthusiast with a keen understanding of the common machine learning techniques and algorithms. Also fond of innovative Web Designing and Competitive Coding",
         "photo":pic,
         "li":"https://www.linkedin.com/in/christopher2000",
-        "github":"https://www.github.com/chistopher-2000",
+        "github":"https://www.github.com/christopher-2000",
         "twitter":"",
         "insta":"https://www.instagram.com"
 
