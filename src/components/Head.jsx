@@ -34,7 +34,9 @@ function Head(){
                 
             
                 <div className="about inline centre">
+                    <div className="photo">
                     <div className="pro-pic"><img src={Data[0].photo} alt="" /></div>
+                    </div>
                     <div className="writing">
                         <h1 className="main-title">{Data[0].name}</h1>
                         <h1>{Data[0]['one-line']}</h1>

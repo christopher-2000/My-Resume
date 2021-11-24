@@ -242,25 +242,37 @@ img:hover{
 .centre{
     text-align: center;
 }
+.photo{
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .pro-pic{
     
     align-items: center;
     padding-top:auto;
     padding-bottom: auto;
     border: 0px solid white;
-    background-color:black;
+    border-radius: 10px;
+    
+    background-size: cover;
     overflow: hidden;
     vertical-align: middle;
     margin: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 15em;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10em;
     height: 10em;
+    object-fit: cover;
     
 }
 .pro-pic img{
     display: block;
-    transform: scale(2.5);
+    transform: scale(3);
     width:90%;
     
 }

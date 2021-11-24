@@ -2,6 +2,7 @@ import neural from './images/neural.png';
 import todo from './images/todo.jfif';
 import hand from './images/hand.png';
 import blog from './images/blog.jfif';
+import port from './images/portfolio.jpg';
 export var Data = [
     {
         "title":"Segmentation of Images using UNET",
@@ -35,6 +36,13 @@ export var Data = [
         "image":todo
 
     },
+    {
+        "title":"Portfolio Website",
+        "mid":"Individual Project | React.js",
+        "decription":"My personal portfolio website with details of all my past experience, projects and other achievements",
+        "link":"https://github.com/christopher-2000/My-Resume",
+        "image":port
+    }
     
     
 ]
