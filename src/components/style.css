@@ -257,23 +257,27 @@ img:hover{
     padding-bottom: auto;
     border: 0px solid white;
     border-radius: 10px;
-    
+    box-shadow: 1px 3px 5px 1px gray;
     background-size: cover;
     overflow: hidden;
     vertical-align: middle;
     margin: 1%;
-    
     margin-top: auto;
     margin-bottom: auto;
     width: 10em;
     height: 10em;
-    object-fit: cover;
+    object-fit:fill;
+    position: relative;
     
 }
+
+
 .pro-pic img{
+    position: absolute;
+    left: -120px;
+    top: -60px;
     display: block;
-    transform: scale(3);
-    width:90%;
+    width: 260%;
     
 }
 .writing{
