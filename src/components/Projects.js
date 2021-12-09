@@ -3,7 +3,15 @@ import todo from './images/todo.jfif';
 import hand from './images/hand.png';
 import blog from './images/blog.jfif';
 import port from './images/portfolio.jpg';
+import recc from './images/rec.jpg';
 export var Data = [
+    {
+        "title":"University Recommendation System",
+        "mid":"Team Project | Data Science",
+        "decription":"A hybrid recommendation system that recommends universities for students aspiring to take admission in international universities",
+        "link":"https://github.com/christopher-2000/BTP",
+        "image":recc
+    },
     {
         "title":"Segmentation of Images using UNET",
         "mid":"Individual Project | Deeplearning",

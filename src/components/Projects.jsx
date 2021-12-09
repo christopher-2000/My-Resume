@@ -14,7 +14,7 @@ function Project(){
         speed: 600,
         slidesToShow: 3,
         slidesToScroll: 3,
-        initialSlide: 1,
+        initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
