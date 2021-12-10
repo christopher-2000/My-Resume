@@ -1,9 +1,9 @@
 
-import Data from './skills.json';
+import Data from './data/skills.json';
 import './style.css';
 import ProgressBar from './skill_bar.jsx';
 
-function Skills(){
+function Skills(){ 
     return(
         <section className="container dark">
             <h1 className="section-title">Skill Set</h1>

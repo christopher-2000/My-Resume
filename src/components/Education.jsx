@@ -1,5 +1,5 @@
 
-import {Data} from './Education.js';
+import {Data} from './data/Education.js';
 import './style.css';
 
 function Education(){

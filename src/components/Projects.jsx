@@ -1,6 +1,6 @@
 import './style.css';
 import Slider from 'react-slick';
-import {Data} from './Projects.js';
+import {Data} from './data/Projects.js';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

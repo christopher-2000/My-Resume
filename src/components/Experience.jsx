@@ -1,5 +1,5 @@
 
-import {Data} from './experience';
+import {Data} from './data/experience';
 import './style.css';
 
 function Experience(){

@@ -1,4 +1,4 @@
-import {Data} from './Head.js';
+import {Data} from './data/Head.js';
 
 import './style.css';
 
