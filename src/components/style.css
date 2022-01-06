@@ -44,6 +44,9 @@ img:hover{
 .white{
     color:white;
 }
+.center{
+    text-align: center;
+}
 .section-title{
     font-family: 'Roboto Mono', sans-serif;
     font-size: 2.2em;
@@ -113,9 +116,12 @@ img:hover{
     border-radius: 50%;
     padding: auto;
 }
-
+.medium{
+    font-size: larger;
+}
 .git-link{
     color: black;
+    text-decoration: none;
 }
 .git-link:hover{
     color: blue;
@@ -181,7 +187,7 @@ img:hover{
     margin-right: 1%;
     margin-top: 0%;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid gray;
     border-radius: 20px;
     transform: scale(0.7);
     overflow: hidden;

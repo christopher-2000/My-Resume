@@ -4,13 +4,8 @@ import './style.css';
 
 import ParticleBackground from './ParticleBackground.js';
 import Typical from 'react-typical';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faGithub } from '@fortawesome/free-brands-svg-icons';
-import {  faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import {  faInstagram } from '@fortawesome/free-brands-svg-icons';
-const git = <FontAwesomeIcon icon={faGithub} size="2x" />
-const li = <FontAwesomeIcon icon={faLinkedin} size="2x" />
-const insta = <FontAwesomeIcon icon={faInstagram} size="2x" />
+
+import icons from "./data/icons.js";
 function Head(){
     return(
             
@@ -43,9 +38,9 @@ function Head(){
                         {Data[0].about}
                     </div>    
                     <div className="side">
-                    <div className="social-link"><a href={Data[0].github} className="git-link">{git}</a></div>
-                    <div className="social-link"><a href={Data[0].li} className="git-link">{li}</a></div>
-                    <div className="social-link"><a href={Data[0].insta} className="git-link">{insta}</a></div>
+                    <div className="social-link"><a href={Data[0].github} className="git-link">{icons["git2"]}</a></div>
+                    <div className="social-link"><a href={Data[0].li} className="git-link">{icons["li2"]}</a></div>
+                    <div className="social-link"><a href={Data[0].insta} className="git-link">{icons["insta2"]}</a></div>
                     </div>
                 </div>
                 

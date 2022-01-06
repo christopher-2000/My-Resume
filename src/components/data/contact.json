@@ -1,0 +1,64 @@
+[
+    {
+        "icon":"git1",
+        "link":"https://www.github.com/christopher-2000",
+        "name":"christopher-2000",
+        "brand":"github /"
+    },
+    {
+        "icon":"li1",
+        "link":"https://www.linkedin.com/in/christopher2000",
+        "name":"christopher2000",
+        "brand":"linkedin /"
+    },
+    {
+        "icon":"insta1",
+        "link":"https://www.instagram.com",
+        "name":"_christo_221b",
+        "brand":"instagram /"
+    },
+    {
+        "icon":"codef1",
+        "link":"https://www.codeforces.com/profile/christo_221b",
+        "name":"christo_221b",
+        "brand":"codeforces /"
+    },
+    {
+        "icon":"codec1",
+        "link":"https://www.codechef.com/users/christo_221b",
+        "name":"christo_221b",
+        "brand":"codechef /"
+    },
+    {
+        "icon":"leet1",
+        "link":"https://leetcode.com/christo_221b/",
+        "name":"christo_221b",
+        "brand":"leetcode /"
+        
+    },
+    {
+        "icon":"gmail1",
+        "link":"mail:christopher.geever@gmail.com",
+        "name":"christopher.geever@gmail.com",
+        "brand":""
+        
+    },
+    {
+        "icon":"what1",
+        "link":"+91 8547511198",
+        "name":"+91 8547511198",
+        "brand":"whatsapp /"
+
+    },
+    {
+        "icon":"face1",
+        "link":"https://facebook.com",
+        "name":"christophermg",
+        "brand":"facebook /"
+
+    }
+
+    
+    
+    
+]
