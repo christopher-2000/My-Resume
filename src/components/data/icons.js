@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGithub,faLinkedin,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { SiCodeforces, SiCodechef,SiLeetcode, SiWhatsapp, SiFacebook } from 'react-icons/si';
 import {CgMail} from 'react-icons/cg'
-
+import {BiCopyright} from 'react-icons/bi'
 
 
 const git1 = <FontAwesomeIcon icon={faGithub} size="1x" />
@@ -17,6 +17,7 @@ const leet1 = <SiLeetcode />
 const cgMail = <CgMail/>
 const what1 = <SiWhatsapp/>
 const face1 = <SiFacebook/>
+const copy1 = <BiCopyright />
 
 var icons = {
     "git2":git2,
@@ -30,7 +31,8 @@ var icons = {
     "leet1":leet1,
     "gmail1":cgMail,
     "what1":what1,
-    "face1":face1
+    "face1":face1,
+    "copy1":copy1
 };
 
 export default icons;

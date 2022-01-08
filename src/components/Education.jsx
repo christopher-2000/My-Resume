@@ -1,10 +1,9 @@
 
 import {Data} from './data/Education.js';
 import './style.css';
-
 function Education(){
     return(
-        <section className="container light grad-blue">
+        <section className="container light">
             <h1 className="section-title">Education</h1>
             {
                 Data.map(entry => {
