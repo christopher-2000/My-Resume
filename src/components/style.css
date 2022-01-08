@@ -216,6 +216,8 @@ img:hover{
 .skill-card{
     width: 80%;
     margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1%;
     transition: background-color 1s ease;
     border-radius: 10px;
