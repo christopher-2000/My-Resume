@@ -266,7 +266,7 @@ img:hover{
     padding-top:auto;
     padding-bottom: auto;
     border: 0px solid white;
-    border-radius: 10px;
+    border-radius: 50%;
     box-shadow: 1px 3px 5px 1px gray;
     background-size: cover;
     overflow: hidden;
@@ -274,8 +274,8 @@ img:hover{
     margin: 1%;
     margin-top: auto;
     margin-bottom: auto;
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 12em;
     object-fit:fill;
     position: relative;
     
@@ -284,10 +284,11 @@ img:hover{
 
 .pro-pic img{
     position: absolute;
-    left: -120px;
-    top: -60px;
+    left: -20px;
+    top: -15px;
+    
     display: block;
-    width: 260%;
+    width: 120%;
     
 }
 .writing{

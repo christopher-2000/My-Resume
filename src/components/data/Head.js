@@ -1,4 +1,4 @@
-import pic from './images/Developer.jpg'
+import pic from './images/dp.png'
 
 export var Data = [
     {   "name":"M G Christopher",
