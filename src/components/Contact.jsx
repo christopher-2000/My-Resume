@@ -1,7 +1,12 @@
 import Data from './data/contact.json'
 import './style.css'
 import icons from './data/icons.js'
+import Visits from './Visits.jsx';
+
+
+
 function Contact(){
+    
     return(
         <section>
             <section className="container dark grad-blue">
@@ -22,8 +27,12 @@ function Contact(){
             }  
             </div>
             <br /><br />
-            
+        
+            <Visits />
         </section>
+        
+
+        
         
         <footer className='grad-progress center'style={{paddingTop:5,paddingBottom:5}}>
         {icons["copy1"]} <small>This site was designed and developed by me for time pass</small>
