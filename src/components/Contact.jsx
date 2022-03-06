@@ -16,7 +16,7 @@ function Contact(){
             {
                 Data.map(entry => {
                     return(
-                        <a href={entry.link} className='git-link'>
+                        <a href={entry.link} className='git-link' target="_blank" rel="noreferrer noopener">
                         <div className='dark-entry skill-card center'>
                             <p className='medium' style={{margin:10}}>{icons[entry.icon]} {entry.brand} {entry.name}</p>
                         </div>

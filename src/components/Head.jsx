@@ -38,9 +38,9 @@ function Head(){
                         {Data[0].about}
                     </div>    
                     <div className="side">
-                    <div className="social-link"><a href={Data[0].github} className="git-link">{icons["git2"]}</a></div>
-                    <div className="social-link"><a href={Data[0].li} className="git-link">{icons["li2"]}</a></div>
-                    <div className="social-link"><a href={Data[0].insta} className="git-link">{icons["insta2"]}</a></div>
+                    <div className="social-link"><a href={Data[0].github} className="git-link" target="_blank" rel="noreferrer noopener">{icons["git2"]}</a></div>
+                    <div className="social-link"><a href={Data[0].li} className="git-link" target="_blank" rel="noreferrer noopener">{icons["li2"]}</a></div>
+                    <div className="social-link"><a href={Data[0].insta} className="git-link" target="_blank" rel="noreferrer noopener">{icons["insta2"]}</a></div>
                     </div>
                 </div>
                 

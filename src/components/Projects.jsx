@@ -61,7 +61,7 @@ function Project(){
                              <h3>{entry.title}</h3>
                              <h4>{entry.mid}</h4>
                              <p>{entry.decription}</p>
-                             <a href={entry.link} className="git-link"><div className="git">{git}</div></a>
+                             <a href={entry.link} className="git-link" target="_blank" rel="noreferrer noopener"><div className="git">{git}</div></a>
                            </div>
                         </div>
                         
