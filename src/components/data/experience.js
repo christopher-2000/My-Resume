@@ -1,7 +1,18 @@
 import nit from './images/nit.png';
 import iot from './images/iot.png';
 import daddy from './images/daddy1.png';
+import ibm from './images/ibmb.png';
 export var Data = [
+    {
+        "job_title":"Application Developer Intern",
+        "employer":"IBM Consulting",
+        "from":"Jan 2022",
+        "to":"Jun 2022",
+        "techs":"Oracle Cloud, Oracle CRM",
+        "description":"Documenting, Developing and Testing serveral workflows on the Oracle CRM platform as per client requirements.",
+        "link":"",
+        "logo":ibm
+    },
     {
         "job_title":"Deep Learning Intern",
         "employer":"NIT Calicut",

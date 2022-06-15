@@ -6,8 +6,8 @@ export var Data = [
     {
         "school":"Indian Institute of Information Technology",
         "from":"Aug 2018",
-        "to":"present",
-        "cgpa":"CGPA : 8.13 / 10",
+        "to":"May 2022",
+        "cgpa":"CGPA : 8.21 / 10",
         "degree":"BTech in Computer Science & Engineering",
         "logo": iiitk
     },
