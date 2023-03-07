@@ -2,7 +2,18 @@ import nit from './images/nit.png';
 import iot from './images/iot.png';
 import daddy from './images/daddy1.png';
 import ibm from './images/ibmb.png';
+import cognizant from './images/cognizant.png';
 export var Data = [
+    {
+        "job_title":"Machine Learning Engineer",
+        "employer":"Cognizant Technology Solutions",
+        "from":"Jul 2022",
+        "to":"Current",
+        "techs":"Machine Learning, Deep Learning",
+        "description":"ML Engineer at AI for QA and QA for AI working on implementing solutions to make QA life easier with AI. ",
+        "link":"",
+        "logo":cognizant
+    },
     {
         "job_title":"Application Developer Intern",
         "employer":"IBM Consulting",
