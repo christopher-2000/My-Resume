@@ -10,7 +10,11 @@ class Visits extends Component{
         };
     }
     componentDidMount() {
-        fetch('https://api.countapi.xyz/update/mgchristopher.netlify.app/christo_resume/?amount=1')
+        fetch('https://api.api-ninjas.com/v1/counter?id=test_id&hit=true',{
+            method: 'GET',
+            headers: {
+              'X-Api-Key': 'Q3ckTswpedUDPwuNClGk4A==uQX72wMWwMWz4we2', // Replace 'YOUR_API_KEY' with your actual API key
+            }})
     .then(res => res.json())
     .then(res => {
         this.setState({
