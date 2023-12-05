@@ -2,7 +2,6 @@ import {Data} from './data/Head.js';
 
 import './style.css';
 
-import ParticleBackground from './ParticleBackground.js';
 import Typical from 'react-typical';
 
 import icons from "./data/icons.js";
@@ -11,7 +10,6 @@ function Head(){
             
         
         <section className="light head-back grad-orange" >
-            <ParticleBackground canvasClassName="example"/>
             <div className="stuff">
             <div className="stuff-head">
             <p>
