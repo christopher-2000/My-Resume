@@ -8,7 +8,7 @@ export var Data = [
         "job_title":"Machine Learning Engineer",
         "employer":"Cognizant Technology Solutions",
         "from":"Jul 2022",
-        "to":"Current",
+        "to":"Aug 2023",
         "techs":"Machine Learning, Deep Learning",
         "description":"ML Engineer at AI for QA and QA for AI working on implementing solutions to make QA life easier with AI. ",
         "link":"",

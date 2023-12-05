@@ -284,11 +284,10 @@ img:hover{
 
 .pro-pic img{
     position: absolute;
-    left: -20px;
-    top: -15px;
+    
     
     display: block;
-    width: 120%;
+    width: 105%;
     
 }
 .writing{

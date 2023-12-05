@@ -19,8 +19,8 @@
     },
     {
         "skill":"Deep Learning",
-        "Techs":"Keras, TensorFlow, OpenCV",
-        "percent":"60",
+        "Techs":"Keras, TensorFlow, OpenCV, NLP",
+        "percent":"80",
         "level":"Intermediate"
     },
     {

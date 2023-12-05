@@ -1,8 +1,17 @@
 import iiitk from './images/vector.png';
 import kvn from './images/kvn.jfif';
 import hc from './images/hc.png';
+import pfw from './images/pfw.jpeg';
 
 export var Data = [
+    {
+        "school":"Purdue University, Fort Wayne",
+        "from":"Aug 2023",
+        "to":"Present",
+        "cgpa":"",
+        "degree":"MS in Computer Science",
+        "logo": pfw
+    },
     {
         "school":"Indian Institute of Information Technology",
         "from":"Aug 2018",
