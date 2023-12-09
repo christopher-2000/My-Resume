@@ -8,17 +8,10 @@ const Visits = () => {
     const fetchData = async () => {
       try {
         // Replace 'YOUR_API_KEY' with your actual API key
-        const apiKey = '9CLmvaQgg9cvn0r7GrLp6PzaJntnFN2TJwiEaw0l';
+        //const apiKey = '9CLmvaQgg9cvn0r7GrLp6PzaJntnFN2TJwiEaw0l';
 
         const response = await fetch(
-          'https://api.api-ninjas.com/v1/counter?id=test_id&hit=true',
-          {
-            method: 'GET',
-            headers: {
-              'X-Api-Key': apiKey,
-              'Content-Type': 'application/json'
-            },
-          }
+          'https://api.counterapi.dev/v1/mgchristopher.netlify.app/portfolio/up'
         );
 
         console.log(response);
@@ -26,7 +19,7 @@ const Visits = () => {
         const data = await response.json();
         console.log(data);
         // Update the state with the fetched count value
-        setCount(data.value);
+        setCount(data.count);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
