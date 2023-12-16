@@ -4,7 +4,15 @@ import hand from './images/hand.png';
 import blog from './images/blog.jfif';
 import port from './images/portfolio.jpg';
 import recc from './images/rec.jpg';
+import ted from './images/Ted.webp';
 export var Data = [
+    {
+        "title": "TED Lens : Elevating TED Talk Discovery",
+        "mid":"Team Project | NLP ",
+        "decription":"Automatic Topic generation model for TED talks from its transcripts, which helps in organization, reccomendation and many more of TED talks.",
+        "link":"https://github.com/christopher-2000/TEDLens-NLP-Project",
+        "image":ted
+    },
     {
         "title":"University Recommendation System",
         "mid":"Team Project | Data Science",
