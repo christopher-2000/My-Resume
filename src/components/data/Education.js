@@ -8,7 +8,7 @@ export var Data = [
         "school":"Purdue University, Fort Wayne",
         "from":"Aug 2023",
         "to":"Present",
-        "cgpa":"",
+        "cgpa":"CGPA : 4.0 / 4.0",
         "degree":"MS in Computer Science",
         "logo": pfw
     },
