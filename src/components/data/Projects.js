@@ -5,7 +5,16 @@ import blog from './images/blog.jfif';
 import port from './images/portfolio.jpg';
 import recc from './images/rec.jpg';
 import ted from './images/Ted.webp';
+import tagalong from './images/TagAlong.png';
+
 export var Data = [
+    {
+        "title":"Tag Along : Ride Sharing Platform",
+        "mid":"Web Development",
+        "decription":"An innovative and affordable mobility solution bridging the transportation gap for individuals without access to personal vehicles.",
+        "link":"https://github.com/christopher-2000/Tag-Along-Frontend",
+        "image":tagalong
+    },
     {
         "title": "TED Lens : Elevating TED Talk Discovery",
         "mid":"Team Project | NLP ",

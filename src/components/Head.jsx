@@ -22,7 +22,7 @@ function Head(){
                 '< Welcome To My Page />',1000]}
                 loop={Infinity}
             />
-
+            
             </p>
             </div>
 
